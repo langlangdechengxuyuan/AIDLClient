@@ -1,4 +1,4 @@
-package com.example.aidlservice;
+package com.example.aidlclient;
 
 import android.content.ComponentName;
 import android.content.Context;
@@ -11,6 +11,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
+
+import com.example.aidlservice.IRemoteService;
+import com.example.aidlservice.Person;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
@@ -35,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(com.example.aidlservice.R.layout.activity_main);
 
         bindService(createExplicitIntent("com.example.aidlservice",
                 "com.example.aidlservice.RemoteService",
