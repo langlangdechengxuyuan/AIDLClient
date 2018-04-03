@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AIDLClient.iml" filepath="$PROJECT_DIR$/AIDLClient.iml" />
-      <module fileurl="file://$PROJECT_DIR$/AIDLClient-master.iml" filepath="$PROJECT_DIR$/AIDLClient-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\15901\Desktop\AndroidStudioProjects\AIDLServiceClient\AIDLClient.iml" filepath="C:\Users\15901\Desktop\AndroidStudioProjects\AIDLServiceClient\AIDLClient.iml" />
+      <module fileurl="file://C:\Users\15901\Desktop\AndroidStudioProjects\AIDLServiceClient\AIDLClient-master.iml" filepath="C:\Users\15901\Desktop\AndroidStudioProjects\AIDLServiceClient\AIDLClient-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AIDLServiceClient.iml" filepath="$PROJECT_DIR$/AIDLServiceClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

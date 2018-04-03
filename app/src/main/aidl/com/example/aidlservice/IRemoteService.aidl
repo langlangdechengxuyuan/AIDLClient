@@ -3,6 +3,7 @@ package com.example.aidlservice;
 
 // Declare any non-default types here with import statements
 import com.example.aidlservice.Person;
+import com.example.aidlservice.IMyAidlCallback;
 
 interface IRemoteService {
     /**
@@ -13,8 +14,9 @@ interface IRemoteService {
             double aDouble, String aString);
 
     /** Request the process ID of this service, to do evil things with it. */
-    int getPid();
+    int getPid(IMyAidlCallback callback);
 
     void save(in Person person);
+
     Person getPerson();
 }
